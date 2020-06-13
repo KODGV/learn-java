@@ -2,7 +2,7 @@
 
 ## 001 语言基础
 
-### 1. HashMap从入门到熟悉 ⭐⭐⭐⭐⭐
+### 1. HashMap从入门到熟悉 ⭐⭐⭐⭐⭐√
 
 #### 1. hash碰撞的解决方案
 
@@ -189,7 +189,7 @@ final Segment<K,V> segmentFor(int hash) {
 
 参考：https://blog.csdn.net/bolang789/article/details/79855053
 
-### 3.  说一说你对java.lang.Object对象中的hashCode和equals方法的理解，在什么场景下需要重新实现这两个方法⭐⭐⭐
+### 3.  说一说你对java.lang.Object对象中的hashCode和equals方法的理解，在什么场景下需要重新实现这两个方法⭐⭐⭐√
 
 #### 3.1 equals方法的作用
 
@@ -237,13 +237,13 @@ HashMap对象是根据其Key的hashCode来获取对应的Value。
 
 如何深入研究Java里的课题：https://blog.csdn.net/javazejian/article/details/73413292
 
-### 5. Java中的几种基本数据类型是什么，各占用多少字节 
+### 5. Java中的几种基本数据类型是什么，各占用多少字节 √
 
 以int 32位作为基准，其他的double or half
 
 ![](pics/java_basic_data_type.png)
 
-### 6. String类能够被继承吗，为什么 ⭐⭐⭐
+### 6. String类能够被继承吗，为什么 ⭐⭐⭐√
 
 - 直接原因：不能，被final修饰。
 - 根本原因：
